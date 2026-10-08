@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Imagens/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    /*para usar nos noteboooks*/   
+    /*background-position: center;*/
+}
+.caixa{
+    /*width: 400px;
+    height: 420px;
+     Só pra caso eu não goste de como fica em outros dispositivos */
+    font-size: 20px;
+    min-height: 400px;  
+    border: solid;
+    border-radius: 12px;
+    border-color: rgb(131, 228, 11);
+    padding:  45px;;
+    margin:  10px;;
+    background-color: rgb(4, 168, 92);
+}
+.butão{
+    background-color: rgb(7, 92, 40);
+    border: solid;
+    border-radius: 8px;
+    color: rgb(167, 225, 31);
+    display: flex;
+    align-self: center;
+    padding: 15px;
+    font-size: 16px;
+    width: 130px;
+    cursor: pointer;
+    justify-content: center;
+    transform: scale(1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.butão:hover {
+  background-color: #2ecc71;
+    transform: scale(1.05);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px;
+    margin: 10px;
+    gap: 12px;
+}
+input{
+    width: 22pc;
+    height: 20px;
+    border-color: black;
+    border-radius: 20px;
+}
+.img_Senai{
+    width: 270px;
+    height: 170px;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.img_Senai:hover{
+    transform: scale(1.05);
+}
+.login{
+    border: solid;
+    border-color: rgb(132, 188, 0);
+    border-width: 7px;
+    border-radius: 6px;
+}
+.login, label{
+    font-size: 28px;
+}
+.PNG_GOAT{
+    width: 420px;
+    max-height: 35pc;
+    max-width: 25pc;
+    margin: 50px;
+    align-self: center;
+    justify-self: flex-start;
+}
