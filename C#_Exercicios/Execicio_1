@@ -1,0 +1,25 @@
+using System;
+public class Program
+{
+   static void Main()
+ {
+   Console.WriteLine("Escreva sua idade: ");
+   int idade = int.Parse(Console.ReadLine());
+   
+   if (idade <= 11)
+   {
+       Console.WriteLine("Criança");
+   }
+   else if (idade <= 17)
+   {
+       Console.WriteLine("Adolecente");
+   }
+   else
+   {
+       Console.WriteLine("Adulto");
+   }
+   
+   
+   
+ }
+}
