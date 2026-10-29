@@ -1,0 +1,34 @@
+using System;
+public class Program
+{
+   static void Main()
+ {
+   Console.WriteLine("Escolha uma das opções:");
+   Console.WriteLine(" 1- Mostrar o saldo");
+   Console.WriteLine(" 2- Fazer deposíto");
+   Console.WriteLine(" 3- Sair");
+   
+   int opcoes = int.Parse(Console.ReadLine());
+   switch(opcoes)
+   {
+       case 1:
+       Console.WriteLine("Voce consultou o saldo.");
+       break;
+       
+       case 2:
+       Console.WriteLine("Voce abriu p/ deposito.");
+       break;
+       
+       case 3:
+       Console.WriteLine("Saindo...");
+       break;
+       
+       default:
+       Console.WriteLine("Opção invalida! tente outro.");
+       break;
+   }
+   
+   
+   
+ }
+}
